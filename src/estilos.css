@@ -1,0 +1,198 @@
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf3;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #79a88c;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Menú */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffe5a3;
+}
+
+/* Contenido */
+main {
+  padding: 30px;
+  text-align: center;
+  min-height: 400px;
+}
+
+main h2 {
+  color: #47765b;
+}
+
+/* Imágenes */
+main img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+/* Formulario */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 12px;
+  background-color: #79a88c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #47765b;
+}
+
+/* Mapa */
+iframe {
+  max-width: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #47765b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Contenedor de las mascotas */
+.contenedorMascotas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Tarjeta de cada mascota */
+.tarjetaMascota {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px #cccccc;
+  text-align: center;
+}
+
+/* Imagen de la mascota */
+.tarjetaMascota img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Nombre de la mascota */
+.tarjetaMascota h3 {
+  color: #47765b;
+}
+
+/* Formulario y mapa */
+.contenedorContacto {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* Formulario */
+.contenedorContacto form {
+  width: 350px;
+  margin: 0;
+}
+
+/* Mapa */
+.mapa {
+  width: 400px;
+}
+
+.mapa iframe {
+  width: 100%;
+}
+
+
+/* Contenedor de los perros */
+.contenedorPerros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Tarjeta de cada perro */
+.tarjetaPerro {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px #cccccc;
+}
+
+/* Imagen del perro */
+.tarjetaPerro img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Mascota seleccionada */
+.mascotaSeleccionada {
+  text-align: center;
+  margin: 20px;
+}
+
+.mascotaSeleccionada img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+}
